@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SIM Card Recovery Service</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>SIM Card Recovery Service</h1>
+  </header>
+
+  <section id="recovery">
+    <h2>Recover Contacts</h2>
+    <form id="recovery-form">
+      <label for="iccid">Enter ICCID (SIM card number):</label>
+      <input type="text" id="iccid" name="iccid" required>
+      <label for="pin">Enter PIN:</label>
+      <input type="password" id="pin" name="pin" required>
+      <button type="submit">Recover</button>
+    </form>
+    <div id="recovered-contacts"></div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
+
+
